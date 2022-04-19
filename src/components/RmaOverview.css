@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-style: oblique;
+    font-family: ;
+}
+
+.gallery {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+}

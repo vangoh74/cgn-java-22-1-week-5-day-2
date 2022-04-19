@@ -1,0 +1,13 @@
+
+.post-card {
+    margin: 5px;
+    background-color: rgba(255, 255, 255, .2);
+
+}
+.card-Image {
+    margin: 20px;
+    border-top: 16px solid darkgray;
+    border-right: 16px solid darkgray;
+    border-bottom: 50px solid darkgray;
+    border-left: 16px solid darkgray;
+}
