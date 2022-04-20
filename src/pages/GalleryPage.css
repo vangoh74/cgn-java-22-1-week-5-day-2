@@ -1,0 +1,10 @@
+input, button {
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.error-msg {
+    color: black;
+}

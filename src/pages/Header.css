@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    color: black;
+
+}
+
+.home, .blabla {
+    padding: 5px;
+    background-color: black;
+    border: 5px solid white;
+}
