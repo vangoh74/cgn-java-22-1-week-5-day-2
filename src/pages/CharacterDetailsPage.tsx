@@ -21,14 +21,10 @@ export default function CharacterDetailsPage() {
             .catch(console.error);
     }
 
-
     useEffect(() => {
         fetchCharacter()
             .then(char => setCharacter(char))
-    }, [])
-
-
-
+    }, [id])
 
     console.log(character);
     console.log(character);

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9d3a71f-a9f3-46e0-b620-ae14a10d1234" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/CharacterDetailsPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/CharacterDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CharacterDetailsPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +113,8 @@
       <workItem from="1650442342447" duration="189000" />
       <workItem from="1650442588641" duration="784000" />
       <workItem from="1650443402349" duration="15847000" />
-      <workItem from="1650464154356" duration="2812000" />
+      <workItem from="1650464154356" duration="3440000" />
+      <workItem from="1650527946410" duration="909000" />
     </task>
     <servers />
   </component>
