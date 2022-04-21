@@ -1,6 +1,7 @@
 import {ChangeEvent, useEffect, useState } from "react";
 import RmaOverview from "../components/RmaOverview";
 import { Card } from "../model/Card";
+import { fetchCharacters } from "../services/RickAndMortyApiService";
 import "./GalleryPage.css"
 
 export default function GalleryPage() {
@@ -8,21 +9,18 @@ export default function GalleryPage() {
     const [text, setText] = useState<string>("");
     const [inputText, setInputText] = useState<string>("");
 
-    const fetchCharacters = () => {
-        return fetch('https://rickandmortyapi.com/api/character')
+    useEffect(() => {
+        geCharactersFromApi()
+    }, [])
+
+    const geCharactersFromApi = () => {
+        fetchCharacters('https://rickandmortyapi.com/api/character')
             .then(response => {
-                if (response.ok) {
-                    return response.json();
-                }
-                throw new Error("Network error")
+                setCharacters(response.results)
             })
-            .catch(console.error);
+            .catch(error => console.log(error));
     }
 
-    useEffect(() => {
-        fetchCharacters()
-            .then(body => setCharacters(body.results))
-    }, [])
 
     const onTextChange = (event : ChangeEvent<HTMLInputElement>) => {
         setText(event.target.value);
